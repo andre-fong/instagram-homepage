@@ -1,0 +1,57 @@
+.stories-section {
+  display: block;
+}
+
+.stories-container {
+  display: flex;
+  background-color: white;
+  border: 1px solid rgb(203, 203, 203);
+  border-radius: 7px;
+  padding: 17px;
+  margin-bottom: 16px;
+  
+  width: 468px;
+
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.story {
+  font-size: 12px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  margin-right: 7px;
+}
+
+.profile-picture-container {
+  width: 58.5px;
+  height: 58.5px;
+  border: 2px solid rgb(254, 120, 205);
+  border-radius: 30px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-bottom: 5px;
+  padding: 0;
+}
+
+.profile-picture {
+  width: 56px;
+  height: 56px;
+  border-radius: 30px;
+}
+
+.username {
+  color:rgb(38, 38, 38);
+  width: 70px;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
