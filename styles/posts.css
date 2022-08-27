@@ -1,6 +1,7 @@
 .posts-grid {
   display: grid;
   grid-template-rows: 1fr;
+  row-gap: 15px;
 
   width: 504px;
 }
@@ -8,7 +9,7 @@
 .post {
   background-color: white;
   border: 1px solid rgb(203, 203, 203);
-  border-radius: 7px;
+  border-radius: 10px;
 }
 
 .post-header {
@@ -123,7 +124,7 @@
   font-size: 14px;
   padding-left: 18px;
   padding-right: 18px;
-  padding-bottom: 25px;
+  padding-bottom: 15px;
 }
 
 .like-info-container {
@@ -154,7 +155,7 @@
   justify-content: space-between;
   align-items: center;
 
-  margin-top: 7px;
+  margin-top: 5px;
 }
 
 .view-all-comments {
@@ -184,13 +185,58 @@
   width: 22px;
   height: 22px;
   object-fit: cover;
-  top: -4px;
+  top: -2px;
   left: -4px;
 }
 
 .post-date {
   color: #8e8e8e;
-  font-size: 10px;
+  font-size: 12px;
   
   margin-top: 14px;
+}
+
+.add-comment-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 8px 14px 10px 8px;
+  border-top: 1px solid rgb(235, 235, 235);
+}
+
+.add-comment-container .interact-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-right: 5px;
+}
+
+.add-comment-container .emoji-icon {
+  width: 40px;
+  height: auto;
+  object-fit: cover;
+
+  padding-bottom: 3px;
+}
+
+.add-a-comment {
+  width: 100%;
+  font-size: 14px;
+
+  border: none;
+}
+
+.post-button {
+  color: rgb(0, 149, 246);
+  background-color: transparent;
+  font-weight: bold;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.post-button:active {
+  opacity: 0.7;
 }
